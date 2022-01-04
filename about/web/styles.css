@@ -1,0 +1,100 @@
+/*about part */
+.aboutpic{
+  background-image: url("aabout.jpg");
+  height: 75vh;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+  opacity:1;
+  filter: brightness(30%);
+}
+#a{
+  text-align: center;
+  font-size: 50px;
+  margin:30px 0px;
+}
+#textabout{
+  font-size:80px;
+  opacity: 1;
+  color:white;
+  top:35%;
+  left:50%;
+  position: absolute;
+  transform:translate(-50%,-50%);
+}
+/* card */
+.cardss{
+  padding: 8px;
+  width:100%;
+  display:flex;
+  text-align: center;
+}
+.name{
+  font-size: 25px;
+  padding:12px;
+}
+.shortinfo{
+  text-align: center;
+  padding:6px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.button{
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+  padding:6px 12px;
+  text-decoration: none;
+  display: block;
+  margin: 5px;
+}
+.btntext{
+  text-align: center;
+}
+.card{
+  width: 23%;
+  float:left;
+  box-shadow:0px 6px 12px 0 rgba(0,0,0,0.2);
+  padding:6px;
+  margin: auto;
+}
+.cardpic{
+  width:100%;
+}
+/*more */
+.more{
+  width:100%;
+  display: flex;
+  padding: 20px;
+  margin-top: 25px;
+  justify-content: center;
+}
+#member{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+#member:hover{
+  border-radius: 0%;
+  transition: 1.5s;
+}
+.text{
+  width: 65%;
+  padding-left: 15px;
+  padding-right:15px;
+}
+.text1{
+  width: 65%;
+  padding-left: 15px;
+  padding-right:15px;
+  text-align: right;
+}
+.name1{
+  font-size: 40px;
+  text-align: right;
+}
+.shortinfo1{
+  font-size: 20px;
+  opacity:0.8;
+  padding:9px 0px;
+}
